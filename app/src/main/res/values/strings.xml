@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Me voy de viaje</string>
+    <string name="txtDestino">Destino:</string>
+    <string name="txtTransporte">Transporte:</string>
+    <string name="txtParis">París</string>
+    <string name="txtLondres">Londres</string>
+    <string name="txtRoma">Roma</string>
+    <string name="txtCoche">Coche</string>
+    <string name="txtTren">Tren</string>
+    <string name="txtAvion">Avión</string>
+    <string name="txtInfo">INFORMACIÓN</string>
+</resources>

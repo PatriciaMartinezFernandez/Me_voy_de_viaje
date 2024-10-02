@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/txtDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtDestino"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rdgDestino"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp">
+
+            <RadioButton
+                android:id="@+id/rdbParis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/txtParis" />
+
+            <RadioButton
+                android:id="@+id/rdbLondres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtLondres" />
+
+            <RadioButton
+                android:id="@+id/rdbRoma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtRoma" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtTransporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtTransporte"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rdgTransporte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp">
+
+            <RadioButton
+                android:id="@+id/rdbCoche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/txtCoche" />
+
+            <RadioButton
+                android:id="@+id/rdbTren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTren" />
+
+            <RadioButton
+                android:id="@+id/rdbAvion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtAvion" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:layout_marginVertical="20dp"
+            android:text="@string/txtInfo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
